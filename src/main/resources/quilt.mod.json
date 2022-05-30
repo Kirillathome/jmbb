@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "com.kirill",
+		"id": "jmbb",
+		"version": "0.1.0",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Just More Building Blocks",
+			"description": "Adding more decorative building blocks for you to enjoy!",
+			"license": "MIT",
 			"contributors": {
-				"Me!": "Owner"
+				"Kirill_at_home": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/Kirillathome/jmbb",
+				"issues": "https://github.com/Kirillathome/jmbb/issues",
+				"sources": "https://github.com/Kirillathome/jmbb"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/jmbb/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.kirill.jmbb.JmbbMod"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "jmbb.mixins.json"
 }
