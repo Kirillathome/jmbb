@@ -14,6 +14,7 @@ public class JmbbMod implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
 	}
 }
