@@ -1,3 +1,3 @@
 # jmbb
 
-Adding more decorative building blocks for you to enjoy! Made with the Quilt Template Mod.
+Adding Random Stuff since 2022. Currently only adds fireflies.

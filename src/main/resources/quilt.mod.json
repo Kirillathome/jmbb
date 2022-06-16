@@ -3,10 +3,10 @@
 	"quilt_loader": {
 		"group": "com.kirill",
 		"id": "jmbb",
-		"version": "0.1.0",
+		"version": "0.2.2",
 		"metadata": {
-			"name": "Just More Building Blocks",
-			"description": "Adding more decorative building blocks for you to enjoy!",
+			"name": "Just More Stuff",
+			"description": "Adding Random Stuff since 2022",
 			"license": "MIT",
 			"contributors": {
 				"Kirill_at_home": "Owner"
@@ -33,7 +33,7 @@
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.18.2"
+				"versions": ">=1.19"
 			}
 		]
 	},
